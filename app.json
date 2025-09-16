@@ -31,7 +31,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -39,7 +41,15 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.waseeq.preciswritingai"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3ee2df24-0571-4204-add5-e48dfd115a99"
       }
-    }
+    },
+    "owner": "waseeq"
   }
 }
