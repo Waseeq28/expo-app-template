@@ -1,4 +1,4 @@
-Expo App Template
+### Expo App Template
 
 React Native template with Expo, Supabase, NativeWind, and Shadcn/UI components.
 
@@ -10,7 +10,7 @@ React Native template with Expo, Supabase, NativeWind, and Shadcn/UI components.
 - Supabase for backend services
 - NativeWind for Tailwind CSS styling
 - Shadcn/UI components for React Native (Reusables)
-- TypeScript support
+- TypeScript for type safety
 - ESLint and Prettier configured
 
 ## Prerequisites
