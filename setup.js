@@ -52,7 +52,7 @@ async function setup() {
       '{{ANDROID_PACKAGE}}': androidPackage,
     };
 
-    ['package.json', 'app.json', 'app/index.tsx', 'README.md'].forEach((file) => {
+    ['package.json', 'app.json', 'app/index.tsx', 'README.md', 'LICENSE'].forEach((file) => {
       replaceInFile(file, replacements);
     });
 
