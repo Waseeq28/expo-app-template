@@ -26,7 +26,6 @@ React Native template with Expo, Supabase, NativeWind, and Shadcn/UI components.
 ```bash
 git clone <repo-url> {{PROJECT_NAME}}
 cd {{PROJECT_NAME}}
-npm install
 ```
 
 2. Setup project:
@@ -34,23 +33,26 @@ npm install
 ```bash
 npm run setup
 # Enter your app name (kebab-case) and owner name
+# Install dependencies
+npm install
 ```
 
-3. Configure environment:
-
-```bash
-# Edit .env with your Supabase credentials
-# Get them from: https://app.supabase.com/project/_/settings/api
-# Quick copy example env file:
-npm run env:copy
-```
-
-4. Verify installed dependencies are for the correct Expo version:
+3. Verify installed dependencies are for the correct Expo version:
 
 ```bash
 npx expo install --check
 npx expo install --fix
 npx expo-doctor
+```
+
+4. Configure environment:
+
+```bash
+# Edit .env with your Supabase credentials
+# Get them from: https://app.supabase.com/project/_/settings/api
+# Quick copy example env file:
+
+npm run env:copy
 ```
 
 5. Run the app:
