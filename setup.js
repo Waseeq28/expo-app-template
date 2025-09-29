@@ -60,7 +60,7 @@ async function setup() {
       fs.copyFileSync('env.example', '.env');
     }
 
-    console.log('Setup complete. Run "npm install" then "npm start".');
+    console.log('Setup complete. Run "npm install" then "npx expo start".');
   } catch (error) {
     console.error('Setup failed:', error.message);
   }
