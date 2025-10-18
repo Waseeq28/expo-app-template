@@ -90,9 +90,9 @@ If not using the setup script, replace these placeholders:
 3. Configure the project: `eas build:configure`
 4. Add the library: `npx expo install expo-dev-client`
 5. Run a build command:
-   - android: `eas build --platform android`
-   - ios: `eas build --platform ios`
-   - all: `eas build --platform all`
+   - android: `eas build --platform android --profile development`
+   - ios: `eas build --platform ios --profile development`
+   - all: `eas build --platform all --profile development`
 6. Install the app on device or emulator with Expo Orbit
 
 ## Quick Links
